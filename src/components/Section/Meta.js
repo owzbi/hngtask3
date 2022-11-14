@@ -19,7 +19,7 @@ const Meta = () => {
       </div>
 
       <div className="w-full lg:w-1/2 py-20 ">
-        <img src={image} alt="image" />
+        <img src={image} alt="nfts" />
       </div>
     </section>
   );

@@ -31,7 +31,7 @@ const Header = () => {
       </div>
 
       <div className="flex flex-col justify-center items-center mt-8 sm:flex-row p-2  h-full w-full lg:w-1/2">
-        <img src={header_img} alt="image" />
+        <img src={header_img} alt="4 homes" />
       </div>
     </header>
   );
