@@ -15,10 +15,10 @@ import image7 from "../../Images/Frame 151 (7).png";
 
 const Inspiration = () => {
   return (
-    <section className="px-8">
+    <section className="px-12 pb-12 ">
       <h1 className="text-center p-8 text-2xl md:text-4xl font-bold">Inspiration for your next adventure</h1>
 
-      <div className=" flex flex-wrap justify-center items-center">
+      <div className=" flex flex-wrap justify-center items-center gap-4">
         <Card image={image}/>
         <Card image={image2}/>
         <Card image={image8}/>

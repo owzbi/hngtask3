@@ -8,7 +8,7 @@ import twitter from "../../Images/twitter.png"
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col lg:flex-row lg:items-start bg-[#1D1D1E] justify-between items-center py-8 md:px-32 pt-16 text-[#F1F3F9] h-full min-h-[350px] -mt-12">
+    <footer className="flex flex-col lg:flex-row lg:items-start bg-[#1D1D1E] justify-between items-center px-12 lg:px-32 py-8 pt-16 text-[#F1F3F9] h-full min-h-[350px] -mt-12">
       <ul className="flex flex-col justify-between h-full lg:min-h-[300px]">
         <li ><img src={Logo} alt="Logo" className="block w-2/3 m-auto lg:m-0"/></li>
         <li className="hidden lg:block">

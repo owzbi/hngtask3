@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Redrose: ["Red Rose", "cursive"],
+      },
+
+      backgroundColor: {
+        Popup: "rgba(64, 64, 64, 0.5)"
+      }
+    },
   },
   plugins: [],
 };
