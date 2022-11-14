@@ -1,9 +1,23 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import NavBar from "./components/Nav/NavBar";
+import Footer from "./components/Footer/Footer";
+import Homepage from "./components/Head/Homepage";
+import Places from "./components/Section/Places";
 
 function App() {
   return (
-    <div className="App">
-   <h1 className="bg-red-500">HELLO THERE</h1>
-    </div>
+    <>
+      <BrowserRouter>
+        <NavBar />
+       <Routes>
+        <Route path="*" element={<Homepage/>}/>
+        <Route path="/places" element={<Places/>}/>
+
+
+       </Routes>
+        <Footer />
+      </BrowserRouter>
+    </>
   );
 }
 
